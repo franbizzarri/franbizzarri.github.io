@@ -605,10 +605,11 @@ section .container {
   color: #fff;
   line-height: 1;
   margin-right: 12px;
-  transition: 0.3s;
+  transition: all .1s ease-in-out;
 }
 
 .contact .info-box .social-links a:hover {
   color: #18d26e;
+  transform: scale(1.2);
 }
 
