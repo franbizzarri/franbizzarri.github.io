@@ -144,6 +144,44 @@ h6 {
   }
 }
 
+/* Flag Icons */
+
+.flags {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flag-item{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 15px;
+}
+
+
+.flag-item img{
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+  filter: grayscale(1);
+  transition: all .1s ease-in-out;
+  display: block;
+}
+
+.flag-item img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+
+/* End Flag Icons */
+
 /* Header Top */
 #header.header-top {
   height: 80px;
