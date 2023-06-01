@@ -21,6 +21,15 @@ body::before {
   z-index: -1;
 }
 
+body::-webkit-scrollbar{
+  width: 10px;
+  background: rgba(128, 128, 128, .5);
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #414141;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
